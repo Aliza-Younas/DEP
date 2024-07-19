@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 2em 0;
+    background: #fff;
+    margin: 1em 0;
+}
+
+.section h2 {
+    color: #333;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.about p, .skills ul, .experience .job, .education .school, .hobbies p, .contact p {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.experience .job, .education .school {
+    margin-bottom: 2em;
+    background: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
